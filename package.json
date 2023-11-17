@@ -1,0 +1,20 @@
+{
+  "name": "js_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "keywords": [],
+  "author": "Lussati Santos",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "postgres": "^3.4.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
